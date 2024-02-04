@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eeeeee;
+    text-align: center;
+    margin: 10rem;
+    overflow: hidden;
+  }
+
+  #main-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  input,
+  select,
+  button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: #0004ff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #0104ba;
+  }
+
+  #result-heading {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  #header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .fullscreen-bg{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1; /* Send the background to the back */
+    background: url("788673.jpg");
+    background-size: cover;
+    
+    }
